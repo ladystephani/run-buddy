@@ -49,7 +49,7 @@ section {
 
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
+    height: 700px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -64,10 +64,40 @@ section {
     border-width: 3px;
     border-color: #024e76;
     position: absolute;
-    bottom: 120px;
+    bottom: 100px;
     right: 140px;
 }
 
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block; /* display each line separately */
+    padding: 7px 15px;
+    color: #024e76;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
 /* footer */
 footer {
     background: #fce138;
