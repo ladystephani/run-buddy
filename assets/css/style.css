@@ -131,6 +131,29 @@ section {
     margin: 0 auto;
 }
 
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.steps span {
+    font-size: 39px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
 /* footer */
 footer {
     background: #fce138;
