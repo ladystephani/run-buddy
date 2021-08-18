@@ -103,14 +103,25 @@ section {
     text-align: center;
 }
 
-.intro h2 {
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    border-color: #fce138;
     display: inline-block;
+}
+
+.primary-title {
+    border-color: #fce138;
+}
+
+.secondary-title {
+    border-color: #39a6b2;
 }
 
 .intro p {
